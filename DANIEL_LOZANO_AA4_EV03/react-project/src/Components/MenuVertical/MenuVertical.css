@@ -1,0 +1,72 @@
+.menu-vertical {
+    width: 20%; /* Menú ocupa el 20% del ancho */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #d49f6f; /* Color de fondo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacio entre las secciones */
+    align-items: center; /* Centra horizontalmente */
+    position: fixed; /* Menú fijo en la pantalla */
+    top: 0;
+    left: 0; /* Siempre a la izquierda */
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra avatar y nombre */
+    margin-top: 20px; /* Separación superior */
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #3d402e; /* Color de fondo para simular avatar */
+    border-radius: 50%; /* Hace que sea circular */
+    margin-top: 50px;
+    margin-bottom: 10px; /* Espacio entre avatar y nombre */
+    cursor: pointer;  /* Cambia el cursor al pasar sobre el avatar */
+}
+
+.user-name {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.menu-options {
+    width: 70%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Centra los botones */
+    margin-top: 20px;
+}
+
+.menu-options button {
+    background-color: #f5e3bf;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ancho relativo para mantener la coherencia */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.menu-options button:hover {
+    background-color: #e0d1af;
+}
+
+.company-info {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    font-size: 0.9em;
+    color: #333;
+    margin: 5px 0; /* Espacio entre líneas */
+}
+
+

@@ -1,0 +1,24 @@
+.botones-contenedor {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: calc(80% - 40px);
+  }
+  
+  .botones-contenedor button {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .botones-contenedor button:hover {
+    background-color: #aaa;
+  }
+  
